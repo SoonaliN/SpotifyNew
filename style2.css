@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color:#385252;;
+}
+
+#aboutUs {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#aboutUs img {
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.content h2 {
+    font-size: 50px;
+    color:gray;
+}
+
+.content h4 {
+    font-size: 20px;
+    color:burlywood;
+    margin: 10px 0;
+}
+
+.description{
+    color: #fff;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 100;
+}
+.description h3{
+    color:burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.btn {
+    font-weight: bold;
+    border: 2px solid #ffca70;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    background-color: #ffca70;
+
+}
+
+.btn:hover {
+    border: 2px solid #ffca70;
+    background: transparent;
+    color: #ffca70;
+}
+
+.li .icon.btn:hover{
+    background-image: url(instagram.svg);
+
+}
+.icons a{
+    padding: 5px;
+    margin: 15px 0 0 0;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color:black;
+    color: #fff;
+    font-size: x-large;
+
+}
+.icons{
+    margin: -250px 0 0 100px;
+}
+.backtohome a{
+    padding: 5px;
+    color: #aaaaaa;
+    margin: 0 0 0 90%;
+    background-color: #282828;
+    border: solid 1px black;
+    border-radius: 10px;
+  }
